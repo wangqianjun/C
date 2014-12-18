@@ -32,6 +32,7 @@ void insert(node **tree, int val)
     }
 }
 
+// 前序
 void print_preorder(node *tree)
 {
     if (tree)
@@ -42,6 +43,7 @@ void print_preorder(node *tree)
     }
 }
 
+// 中根次序
 void print_inorder(node *tree)
 {
     if (tree)
@@ -52,6 +54,7 @@ void print_inorder(node *tree)
     }
 }
 
+//后根次序
 void print_postorder(node * tree)
 {
     if (tree)
@@ -78,6 +81,16 @@ node *search(node **tree,  int val)
     }
     
     if (val < (*tree)->data) {
-        search(&((*tree)->left), val);
+        return  search(&((*tree)->left), val);
+    }
+    
+    else if (val > (*tree)->data) {
+       return  search(&((*tree)->right), val);
+    }
+    
+    else if(val == (*tree)->data) {
+        return *tree;
+    } else {
+        return NULL;
     }
 }
