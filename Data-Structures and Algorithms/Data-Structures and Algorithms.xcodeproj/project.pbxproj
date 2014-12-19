@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E790E8DF1A440F57002AED57 /* stack_using_linked.c in Sources */ = {isa = PBXBuildFile; fileRef = E790E8DD1A440F57002AED57 /* stack_using_linked.c */; };
+		E790E8E21A4424DE002AED57 /* c_queue.c in Sources */ = {isa = PBXBuildFile; fileRef = E790E8E01A4424DE002AED57 /* c_queue.c */; };
 		E7A230E51A431C3E00F22C68 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = E7A230E41A431C3E00F22C68 /* main.c */; };
 		E7A230ED1A431C7100F22C68 /* stack_using_array.c in Sources */ = {isa = PBXBuildFile; fileRef = E7A230EB1A431C7100F22C68 /* stack_using_array.c */; };
-		E7A230F01A431E1000F22C68 /* stack_template.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E7A230EE1A431E1000F22C68 /* stack_template.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,12 +26,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E790E8DD1A440F57002AED57 /* stack_using_linked.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_using_linked.c; sourceTree = "<group>"; };
+		E790E8DE1A440F57002AED57 /* stack_using_linked.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack_using_linked.h; sourceTree = "<group>"; };
+		E790E8E01A4424DE002AED57 /* c_queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = c_queue.c; sourceTree = "<group>"; };
+		E790E8E11A4424DE002AED57 /* c_queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = c_queue.h; sourceTree = "<group>"; };
 		E7A230E11A431C3E00F22C68 /* Data-Structures and Algorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Data-Structures and Algorithms"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A230E41A431C3E00F22C68 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E7A230EB1A431C7100F22C68 /* stack_using_array.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stack_using_array.c; sourceTree = "<group>"; };
 		E7A230EC1A431C7100F22C68 /* stack_using_array.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack_using_array.h; sourceTree = "<group>"; };
-		E7A230EE1A431E1000F22C68 /* stack_template.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stack_template.cpp; sourceTree = "<group>"; };
-		E7A230EF1A431E1000F22C68 /* stack_template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack_template.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,8 +69,10 @@
 				E7A230E41A431C3E00F22C68 /* main.c */,
 				E7A230EB1A431C7100F22C68 /* stack_using_array.c */,
 				E7A230EC1A431C7100F22C68 /* stack_using_array.h */,
-				E7A230EE1A431E1000F22C68 /* stack_template.cpp */,
-				E7A230EF1A431E1000F22C68 /* stack_template.h */,
+				E790E8DD1A440F57002AED57 /* stack_using_linked.c */,
+				E790E8DE1A440F57002AED57 /* stack_using_linked.h */,
+				E790E8E01A4424DE002AED57 /* c_queue.c */,
+				E790E8E11A4424DE002AED57 /* c_queue.h */,
 			);
 			path = "Data-Structures and Algorithms";
 			sourceTree = "<group>";
@@ -129,7 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7A230E51A431C3E00F22C68 /* main.c in Sources */,
-				E7A230F01A431E1000F22C68 /* stack_template.cpp in Sources */,
+				E790E8E21A4424DE002AED57 /* c_queue.c in Sources */,
+				E790E8DF1A440F57002AED57 /* stack_using_linked.c in Sources */,
 				E7A230ED1A431C7100F22C68 /* stack_using_array.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,6 +250,7 @@
 				E7A230EA1A431C3E00F22C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

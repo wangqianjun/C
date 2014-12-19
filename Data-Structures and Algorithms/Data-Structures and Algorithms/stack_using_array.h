@@ -16,6 +16,12 @@
 #include <stdio.h>
 
 //C stack operations
-//void push(int *s, int *top,)
+void push_arr(int *s, int *top, int element);
+int pop_arr(int *s, int *top);
+int full_arr(int *top, const int size);
+int empty_arr(int *top);
+void init_arr(int *top);
+void display_arr(int *s, int *top);
+
 
 #endif /* defined(__Data_Structures_and_Algorithms__stack_using_array__) */
