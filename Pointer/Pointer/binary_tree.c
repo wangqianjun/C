@@ -15,7 +15,8 @@ void insert(node **tree, int val)
 {
     node *temp = NULL;
     if (!(*tree)) {
-        temp = (node *)malloc(sizeof(node));
+//        temp = (node *)malloc(sizeof(node));
+        temp = (node *)calloc(1, sizeof(node));
         temp->left = temp->right = NULL;
         temp->data = val;
         *tree = temp;
