@@ -8,7 +8,7 @@
 
 #include <stdio.h>
 #include "stack_using_array.h"
-#include "stack_using_linked.c"
+#include "stack_using_linked.h"
 #include "c_queue.h"
 
 void test_stack_arr();
